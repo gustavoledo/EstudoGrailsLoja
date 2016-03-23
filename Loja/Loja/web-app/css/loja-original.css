@@ -1,0 +1,1212 @@
+body
+{
+    margin: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+/* NAVIGATION MENU */
+
+.nav {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    border-style: solid none solid none;
+    margin-top: 5px;
+    padding: 7px 12px;
+    height: 2.5%;
+}
+
+.menuButton {
+    font-size: 14px;
+    padding: 0 5px;
+}
+.menuButton a {
+    color: #333;
+    padding: 4px 6px;
+}
+
+.menuButton a.create {
+    background: url(../images/skin/database_add.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.home {
+    background: url(../images/skin/house.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.report {
+    background: url(../images/printer_view.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.view {
+    background: url(../images/view.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.tools {
+    background: url(../images/wrench.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.cadastros {
+    background: url(../images/table_edit.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.alertas {
+    background: url(../images/icone_alerta.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.alarmes {
+    background: url(../images/alarmclock.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.gerencial {
+    background: url(../images/user1_monitor.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.product {
+    background: url(../images/product.gif) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.money {
+    background: url(../images/money2.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+.menuButton a.new {
+    background: url(../images/add2.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+.menuButton a.historico {
+    background: url(../images/calendar_up.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+.menuButton a.alarmes-analise {
+    background: url(../images/alarmclock_run.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+a.gerenciar {
+    background: url(../images/document_dirty.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+.message {
+    background: #E6FFE6 url(../images/check.png) 8px 50% no-repeat;
+    border: 1px solid green;
+    color: green;
+    margin: 10px 0 5px 0;
+    padding: 10px 0 10px 0;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 14
+}
+
+div.errors {
+    background: #fff3f3;
+    border: 1px solid red;
+    color: #cc0000;
+    margin: 10px 0 5px 0;
+    padding: 5px 0 5px 0;
+}
+div.errors ul {
+    list-style: none;
+    padding: 0;
+}
+div.errors li {
+	background: url(../images/skin/exclamation.png) 8px 0% no-repeat;
+    line-height: 16px;
+    padding-left: 30px;
+}
+
+.field-error {
+	border: 1px solid red;
+}
+
+.info, .success, .error, .warning {
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.error {
+	background-image: url('../images/delete.png');
+}  
+	
+.success {
+	background-image:url('../images/check.png');
+}	
+.warning {
+	background-image:url('../images/warning.png');
+}
+
+.gedigblue #rede_form
+{
+    width: 28em;
+}
+
+.gedigblue form
+{
+    background: url("../images/loja/bg_form.jpg") repeat-x top left;
+    border: 1px solid #A0B6D8;
+    margin:10px;
+    width: 100%;
+    float: left;
+    width:93%;
+    padding:10px 20px 10px 10px;
+    overflow:hidden;
+}
+
+.gedigblue form h1
+{
+    border-bottom:1px dotted #3162A6;
+    color:#3162A6;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:1.5em;
+    font-weight:bold;
+    padding: 0px;
+    width: 100%;
+    text-transform:none;
+}
+
+.gedigblue fieldset
+{
+    margin: 10px 10px 0 0;
+    width: 100%;
+    border: #ccc 1px solid;
+    padding-top:12px;
+    display:block;
+    float:left;
+    border-color:#CCCCCC;
+    border-style:solid;
+    border-width:1px 0 0;
+}
+
+.gedigblue legend
+{
+    color: #555555;
+    font-size:1.1em;
+    font-weight:bold;
+    padding:0 5px;
+}
+
+.gedigblue fieldset ol
+{
+  margin: 0;
+  padding: 0;
+}
+
+.gedigblue fieldset ol li, .gedigblue fieldset ul li
+{
+  list-style: none;
+  margin: 5px 0 0 0;
+}
+.gedigblue fieldset ol li.ie-input-selecao,
+.gedigblue fieldset ul li.ie-input-selecao
+{
+  	margin: 5px 0 10px 0;
+	white-space: nowrap;
+}
+
+.gedigblue ol li.side-by-side,
+.gedigblue ul li.side-by-side
+{
+	white-space: nowrap;
+}
+	
+.gedigblue label
+{
+    color:#111111;
+    display:inline-block;
+    font-size:1.0em;
+    line-height:1.3em;
+    margin: 5px -5px 5px 1px;
+    padding-right:18px;
+    text-align:right;
+    vertical-align:top;
+    width:140px;
+}
+
+.gedigblue .double-line label
+{
+    display: block;
+    text-align: left;
+    padding-left:18px;
+    margin: 0 0 5px 0;
+}
+
+.gedigblue fieldset fieldset
+{
+    border: none;
+    margin:0;
+}
+
+.gedigblue fieldset fieldset legend
+{
+    border: none;
+    color:#555555;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:1.1em;
+    font-weight: normal;
+    margin:0;
+    padding:0;
+    text-align: left;
+    white-space: normal;
+    width: 155px;
+}
+
+.gedigblue fieldset fieldset label
+{
+    margin-left: 0px;
+    width:auto;
+}
+
+.gedigblue form li span
+{
+    color:#111111;
+    display: block;
+    margin: 0px 10px 0px 1px;
+    text-align: right;
+    width: 140px;
+    vertical-align:top;
+    line-height:1.3em;
+    font-size: 1.0em;
+}
+
+.gedigblue .double-line li span
+{
+	margin:0 0 5px;
+	padding-left:18px;
+	padding-right:18px;
+	text-align:left;
+	width:140px;
+}
+
+.gedigblue input[type="radio"]+label,
+.gedigblue input[type="checkbox"]+label
+{
+    text-align: left;
+    vertical-align: bottom;
+    width: 30px;
+    white-space:nowrap;
+}
+
+.gedigblue .double-line input[type="radio"]+label,
+.gedigblue .double-line input[type="checkbox"]+label
+{
+    margin: 0px 5px 5px -5px;
+}
+
+.gedigblue input[type="text"],
+.gedigblue input[type="password"],
+.gedigblue select,
+.gedigblue textarea
+{
+    margin: 0;
+    width: 500px;
+    border: none;
+    color:#666666;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    vertical-align:middle;
+}
+
+.gedigblue optgroup, .gedigblue option
+{
+    color:#666666;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size: 1.0em;
+    padding:4px 0 0 4px;
+}
+
+.gedigblue input[type="text"], .gedigblue select, .gedigblue input[type="password"]
+{
+    background: url("../images/loja/bg_form_field.gif") repeat-x 0 0;
+    height:20px;
+    margin-bottom: 5px;
+    padding: 5px 0 0 4px;
+    width:200px;
+    font-size: 1.0em;
+}
+
+.gedigblue .double-line input[type="text"],
+.gedigblue .double-line select,
+.gedigblue .double-line input[type="password"]
+{
+    margin-left:18px;
+}
+.gedigblue input[type="file"]
+{
+    background: url("../images/loja/bg_form_field.gif") repeat-x top left;
+    position: relative;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.gedigblue .double-line input[type="file"]
+{
+    margin-left: 18px;
+}
+
+/*
+.gedigblue select
+{
+    padding:0px 0 0px 4px;
+    width:auto;
+}
+*/
+
+.gedigblue li.side-by-side select
+{    
+	margin-left:10px;
+	margin-right:0;
+	padding:0;
+	width:100px;	
+}
+
+.gedigblue textarea
+{
+    background: url("../images/loja/bg_form_textarea.gif") repeat-x top left;
+    height:105px;
+    margin-bottom: 5px;
+    padding:4px 0 0 4px;
+    font-size: 1.0em;
+}
+
+.gedigblue .double-line textarea
+{
+    margin-left: 18px;
+}
+
+.gedigblue input[type="radio"],
+.gedigblue input[type="checkbox"]
+{
+    width: auto;
+    color:#666666;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:1.1em;
+    line-height: 1.3em;
+    margin: 0 5px 5px 0;
+}
+
+.gedigblue li.side-by-side input[type="radio"],
+.gedigblue li.side-by-side  input[type="checkbox"]
+{
+    margin: 0 5px 5px 167px;
+}
+	
+.gedigblue .double-line  input[type="radio"],
+.gedigblue .double-line  input[type="checkbox"],
+.gedigblue .double-line  li.side-by-side input[type="radio"],
+.gedigblue .double-line  li.side-by-side input[type="checkbox"]
+{
+    margin: 0 5px 5px 18px;
+    float: left;
+}
+
+.gedigblue select[multiple="multiple"]
+{
+    background: url("../images/loja/bg_form_textarea.gif") repeat-x top left;
+    height:105px;
+    width: 300px;
+}
+
+.gedigblue input[type="text"]:focus, .gedigblue input[type="password"]:focus, .gedigblue select:focus
+{
+    background: url("../images/loja/bg_form_field.gif") repeat-x 0 -25px;
+    color:#333;
+}
+
+.gedigblue textarea:focus,.gedigblue select[multiple="multiple"]:focus
+{
+    background: url("../images/loja/bg_form_textarea.gif") no-repeat;
+    background-position:0 -330px;
+    color:#333;
+}
+
+.gedigblue .botoes-envio
+{
+    width: 100%;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px 0 0 0;
+    float: left;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+}
+
+ .gedigblue .botoes-envio button, 
+ .gedigblue .botoes-envio input[type="button"], 
+ .gedigblue .botoes-envio input[type="submit"],
+ .gedigblue .botoes-envio input[type="reset"] {
+     margin: 0 10px;
+     float: right;
+ }
+     	
+.gedigblue button, .gedigblue input[type="submit"],  .gedigblue input[type="button"]
+{
+    background: url("../images/loja/bg_botao_form.gif") repeat-x bottom left;
+    border: 1px solid #a0b6d8;
+    height:23px;
+    color:#666666;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:1.2em;
+    width:auto;
+    padding:0;
+    float:left;
+    cursor: pointer;
+}
+
+.gedigblue .double-line button,
+.gedigblue .double-line input[type="submit"]
+{
+    margin-left: 25px;
+    margin-right: -15px;
+}
+
+.gedigblue input[type="reset"]
+{
+    background: url("../images/loja/bg_botao_form.gif") repeat-x bottom left;
+    border: 1px solid #a0b6d8;
+    height:23px;
+    color:#666666;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:1.2em;
+    width:auto;
+    padding:0;
+    float:left;
+    cursor: pointer;
+}
+
+.gedigblue .double-line input[type="reset"]
+{
+    margin-left: 25px;
+    margin-right: -15px;
+
+}
+
+.gedigblue button:hover, .gedigblue .bt-form-enviar:hover
+{
+    background: url("../images/loja/bg_botao_form.gif") repeat-x top left;
+    cursor: pointer;
+}
+
+.gedigblue .bt-form-cancelar:hover
+{
+    background: url("../images/loja/bg_botao_form.gif") repeat-x top left;
+    cursor: pointer;
+}
+
+.gedigblue [disabled]
+{
+    background:none;
+    color:#A3A2A2;
+    background-color:#f9f9f9;
+    border: 1px solid #CCCCCC;
+}
+
+.gedigblue .dica
+{
+    vertical-align: super;
+    font-style: italic;
+    color: #777;
+    display: inline;
+    width: auto;
+    text-align: left;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+}
+
+.gedigblue .obrigatorio
+{
+    background:transparent url(../images/loja/form_feedback.png) no-repeat scroll right -24px;
+    cursor:help;
+}
+
+.gedigblue .double-line .obrigatorio
+{
+    background:transparent url(../images/loja/form_feedback.png) no-repeat scroll left -24px;
+}
+
+.gedigblue .texto-obrigatorio
+{
+    background:transparent url(../images/loja/form_feedback.png) no-repeat scroll left -24px;
+    color:#666666;
+    float:right;
+    font-size:0.9em;
+    margin-bottom:-10px;
+	margin-right:0;
+    text-align:right;
+    vertical-align:middle;
+    padding-left: 4px;
+    width:130px;
+    cursor:help;
+}
+
+.gedigblue input.input-error, .gedigblue select.input-error
+{
+    background: url("../images/loja/bg_form_field.gif") repeat-x bottom left;
+}
+
+.gedigblue .error
+{
+    background:transparent url(../images/loja/form_feedback.png) no-repeat scroll left top;
+    clear:both;
+    display:inline;
+    float:right;
+    height:20px;
+    margin-top:-28px;
+    margin-right:20px;
+    width:20px;
+}
+
+.gedigblue .accept
+{
+    background:transparent url(../images/loja/form_feedback.png) no-repeat scroll left -40px;
+    clear:both;
+    display:inline;
+    float:right;
+    height:20px;
+    margin-top:-28px;
+    margin-right:20px;
+    width:20px;
+}
+
+.gedigblue .msg-erro
+{
+    display: block;
+    border: 1px dotted #ff0000;
+    margin: 0 5px 10px 158px;
+    width: 290px;
+    padding: 5px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.gedigblue .btn_pross, .gedigblue .btn_des
+{
+    color: #000;
+    float: left;
+    font-size: 1.0em;
+    width: auto;
+    margin: 0 10px 0 0 ;
+    padding-bottom: 3px;
+}
+
+.gedigblue .btn_pross
+{
+    background: transparent url(../images/loja/form_button.png) repeat-x left top;
+    height: 15px;
+    border: none;
+    margin-left: -2px;
+    width: auto;
+}
+
+.gedigblue .btn
+{
+    background: transparent url(../images/loja/form_button.png) repeat-x right bottom;
+    height: 15px;
+    border: none;
+    width: 32px;
+}
+
+
+.gedigblue .btn_pross:hover
+{
+    background: transparent url(../images/loja/form_button_exit.png) repeat-x left top;
+    height: 15px;
+    border: none;
+    margin-left: -2px;
+    width: auto;
+}
+
+.gedigblue .btn:hover
+{
+    background: transparent url(../images/loja/form_button_exit.png) repeat-x right bottom;
+    height: 15px;
+    border: none;
+    width: 32px;
+}
+
+.gedigblue #submit_buttons
+{
+    width: 50%;
+    height: 25px;
+    padding: 20px 10px 20px 10px;
+}
+
+/* TABELAS */
+
+
+.gedigblue table, .gedigblue .dojoxGrid
+{
+    border:1px solid #999999;
+    border-collapse:collapse;
+    empty-cells:show;
+    margin:5px 10px;
+    table-layout:fixed;
+    width:100%;
+}
+
+.gedigblue table caption
+{
+    color:#3162a6;
+    font-size:1.5em;
+    font-weight:bold;
+    text-transform:none;
+    line-height:20px;
+    text-align:left;
+}
+.gedigblue table tbody td, .gedigblue table tbody th
+{
+        border: none;
+}
+
+.gedigblue table thead tr, .gedigblue .dojoxGridHeader, .gedigblue .dojoxGridMasterHeader
+{
+    background:#F7F7F7 url(../images/loja/bg_tab_port.jpg) repeat scroll left bottom;
+    color:#333333;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:14;
+    height:25px;
+    text-align:left;
+    line-height:14px;
+    overflow: visible;
+    height: auto;
+}
+
+.gedigblue table thead tr th:hover, .gedigblue .dojoxGridHeader .dojoxGridRowTable th:hover
+{
+    background:#F7F7F7 url(../images/loja/bg_tab_port_over.jpg) repeat-x scroll left bottom;
+
+}
+
+.gedigblue table thead tr th:select{
+    background:#d1a16c repeat scroll bottom left;
+
+}
+
+.gedigblue .dojoxGridHeader tr
+{
+    border: none;
+    height: 25px;
+    margin: 0 0 0 10px;
+}
+
+.gedigblue .dojoxGridHeader table
+{
+    border: none;
+    height: 25px;
+    margin: 0;
+}
+
+.gedigblue .dojoxGridHeader th.dojoxGridCell, .gedigblue .dojoxGridHeader td.dojoxGridCell
+{
+    background: none;
+    padding: 0;
+    width: auto;
+    vertical-align:top;
+    height:auto;
+}
+
+.gedigblue table tbody
+{
+    font-size:14;
+}
+
+.gedigblue table tfoot tr
+{
+	/*
+    background:#F7F7F7 url(../images/loja/bg_tab_port.jpg) repeat-x scroll left bottom;
+    color:#333333;
+    font-size:11px;
+    line-height:14px;
+    height:25px;
+    */
+    background:#F7F7F7 url(../images/loja/bg_tab_port.jpg) repeat scroll left bottom;
+    color:#333333;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:14;
+    height:25px;
+    text-align:left;
+    line-height:14px;
+    overflow: visible;
+    height: auto;
+	    
+}
+
+.gedigblue table tfoot td,.gedigblue table thead th,.gedigblue .dojoxGridHeader th.dojoxGridCell
+{
+    padding: 5px 10px;
+}
+
+.gedigblue table tbody th
+{
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.gedigblue table tbody tr, .gedigblue .dojoxGridContent .dojoxGridRow
+{
+    color: #333;
+    background-color: #E2F2FF;
+}
+
+.gedigblue .dojoxGridHeader .dojoxGridRowTable tr
+{
+    background: none;
+    height: auto;
+}
+
+.gedigblue .dojoxGridContent .dojoxGridRowTable
+{
+    margin: 0;
+}
+
+.gedigblue table tbody td, .gedigblue table tbody th, .gedigblue .dojoxGridContent table tbody td.dojoxGridCell
+{
+    border-bottom: 1px solid #C1C1C1;
+    padding: 5px 10px;
+
+}
+
+.gedigblue table tbody td:hover
+{
+    cursor: pointer;
+}
+
+.gedigblue table td
+{
+
+}
+
+.gedigblue table tbody tr.zebra, .gedigblue .dojoxGridContent .dojoxGridRow.dojoxGridRowOdd tr
+{
+    color: #333;
+    background: #fff;
+}
+
+.gedigblue .dojoxGridContent .dojoxGridRow table
+{
+    border-top:none;
+    border-right: none;
+    border-left: none;
+}
+
+.gedigblue table tbody tr:hover, .gedigblue .dojoxGridContent .dojoxGridRow tr:hover
+{
+    color: #333;
+    background: #b6e3ed;
+    cursor: pointer;
+}
+
+.gedigblue .dojoxGridHeader .dojoxGridRowTable tr:hover
+{
+    background: none;
+}
+
+
+.gedigblue .tabela_rede
+{
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.gedigblue .cabecalho
+{
+    float: left;
+    width: 100%;
+}
+
+.gedigblue .cabecalho h1
+{
+    float: left;
+}
+
+/* BOTOES DE CONTROLE*/
+
+.gedigblue #controles
+{
+    float: right;
+    width: 35px;
+}
+
+.gedigblue .increaseGridFont
+{
+    width: 15px;
+    height: 15px;
+    background: transparent url(../images/loja/button_increase_text.png) no-repeat left top;
+    float: left;
+    margin: 0 2px 0 0;
+
+}
+
+.gedigblue .decreaseGridFont
+{
+    width: 15px;
+    height: 15px;
+    background: transparent url(../images/loja/button_decrease_text.png) no-repeat left top;
+    float: left;
+    margin: 0 2px 0 0;
+
+}
+
+.gedigblue .increaseGridFont:hover
+{
+    width: 15px;
+    height: 15px;
+    background: transparent url(../images/loja/button_increase_text_exit.png) no-repeat left top;
+    float: left;
+    margin: 0 2px 0 0;
+
+}
+
+.gedigblue .decreaseGridFont:hover
+{
+    width: 15px;
+    height: 15px;
+    background: transparent url(../images/loja/button_decrease_text_exit.png) no-repeat left top;
+    float: left;
+    margin: 0 2px 0 0;
+
+}
+
+/* */
+
+/* TEXTOS */
+
+h1 {
+    color:#3162a6;
+    font-size:1.7em;
+    font-weight:bold;
+    margin:15px 10px;
+    text-transform:none;
+}
+
+.gedigblue h2 {
+    color:#27889F;
+    font-size:1.6em;
+    font-weight:bold;
+    margin:15px 10px;
+    text-transform:none;
+}
+
+.gedigblue h3 {
+    color:#3162a6;
+    font-size:1.5em;
+    font-weight:bold;
+    margin:15px 10px;
+    text-transform:none;
+}
+
+.gedigblue h4 {
+    color:#444444;
+    font-size:1.4em;
+    font-weight:bold;
+    margin:15px 10px;
+    text-transform:none;
+}
+
+.gedigblue h5 {
+    color:#27889F;
+    font-size:1.3em;
+    font-weight:bold;
+    margin:15px 10px;
+    text-transform:none;
+}
+
+.gedigblue h6 {
+    color:#444444;
+    font-size:1.1em;
+    font-weight:bold;
+    margin:15px 10px;
+    text-transform:none;
+}
+.gedigblue p {
+    color:#111111;
+    font-size:1.1em;
+    font-weight:normal;
+    line-height:18px;
+    margin:10px;
+    text-align:justify;
+}
+
+.gedigblue blockquote
+ {
+    font-size:1.1em;
+    line-height:18px;
+    margin-left:20px;
+    margin-right:20px;
+    padding:0;
+    text-align:justify;
+    color:#666;
+ }
+
+.gedigblue a:link
+ {
+    text-decoration: underline;
+    color: #00849F;
+ }
+
+.gedigblue a:visited
+ {
+    text-decoration: underline;
+    color: #AF4E00;
+ }
+
+.gedigblue a:hover
+ {
+    text-decoration: underline;
+    color: #3162A6;
+ }
+
+.gedigblue a:active
+ {
+    text-decoration: underline;
+    color:#AF4E00 ;
+ }
+
+.gedigblue hr
+ {
+
+    border-color:#ccc;
+    border-style: solid none none;
+    border-width:1px medium medium;
+    color:#FFFFFF;
+    height:5px;
+    margin: 20px 10px 10px;
+ }
+
+.gedigblue ul li
+ {
+    list-style-image:url("../images/loja/bg_bullet.gif");
+    margin-left:-30px;
+    padding-left:5px;
+    font-size:1.1em;
+    color:#111;
+    line-height:20px;
+ }
+
+ * html .gedigblue ul li
+ {
+    margin-left: 15px;
+ }
+
+.gedigblue ol li
+{
+   font-size:1.1em;
+    margin-left:0px;
+    color:#111;
+    line-height:20px;
+}
+
+* html .gedigblue ol li
+{
+   margin-left: 5px;
+}
+
+.gedigblue .gedig img
+{
+   margin-left: 10px;
+
+   /*border:2px outset #CFE3FF;
+   padding:3px;
+   background:#fff;
+   */
+   padding:8px;
+   border:solid;
+   border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
+   border-width: 1px 2px 2px 1px;
+   background-color: #fff;
+}
+
+.gedigblue p img
+{
+  margin-left: 0;
+   padding:8px;
+}
+
+.gedigblue img[align="left"]
+{
+  margin-right: 10px;
+}
+
+.gedigblue img[align="right"]
+{
+  margin-left: 10px;
+}
+
+ .gedigblue .site_externo
+ {
+   padding: 0;
+   margin: 0;
+   border: none;
+ }
+
+.gedigblue select[multiple="multiple"].small-combo
+{
+	height:60px;
+	width:150px;
+	margin-left: 10px;	
+}
+
+.gedigblue select.small-combo
+{
+	margin-left: 10px;
+	width: 150px;
+	height:55px;
+}
+
+.gedigblue fieldset ol .side-by-side
+{
+	float: left;
+	margin-right:5px;
+}
+
+.gedigblue li.columm-width
+{
+	/*width: 310px;*/
+}
+
+.gedigblue .side-by-side label.float-left
+{ 
+	margin-right:0;
+	padding:0 0 0 18px;
+	text-align:right;
+	width:auto;
+	display: inline;
+	clear: left;
+}
+
+.gedigblue form.double-line li.side-by-side label
+{
+	width: 140px;	
+}
+
+.gedigblue form.double-line li.ie-input-selecao label
+{
+	float: left;
+	margin-top: 2px;
+	padding-left: 10px;
+	display: inline;
+}
+
+.gedigblue form.double-line input
+{
+	width: auto;
+	float: left;
+	margin-left: 12px;
+	display: inline;
+}
+
+.gedigblue form.double-line li.side-by-side select
+{
+	/*float: left;*/	
+	display:block;
+}
+
+.gedigblue form.double-line li.side-by-side label.float-left
+{
+	display: inline;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-right: 0;
+	float: left;
+	width: auto;
+}
+
+.gedigblue form.double-line .botoes-envio input
+{
+	margin-left: 20px;
+	margin-right: -10px;
+}
+
+.gedigblue form.double-line br
+{
+	line-height: 15px;
+}
+
+ .plat_nome
+ {
+ 	padding: 10px 0 0 10px;
+ 	color: #555;
+ 	
+     font-weight: bold;
+     font-size: 14px;
+     font-family: Trebuchet MS, Helvetica, sans-serif; 
+ }
+
+/* PAGINATION */
+
+.paginateButtons {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    border-top: 0;
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 6px 0;
+    margin: -4 10px;
+    width: 100%
+}
+.paginateButtons a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}
+
+
+
+/* Estilo da lista de checks - Carlos Marcelo (FRAK) - 23/03/2011 */
+
+.gedigblue .lista-checks label { width: auto; }
+
+#dataInicio_day { width: 40px; }
+#dataInicio_month { width: 90px; }
+#dataInicio_year { width: 60px; }
+
+#dataFim_day { width: 40px; }
+#dataFim_month { width: 90px; }
+#dataFim_year { width: 60px; }
+
+#dataNasc_day { width: 40px; }
+#dataNasc_month { width: 90px; }
+#dataNasc_year { width: 60px; }
+
+#dataAdmissao_day { width: 40px; }
+#dataAdmissao_month { width: 90px; }
+#dataAdmissao_year { width: 60px; }
